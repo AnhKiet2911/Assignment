@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url(/images/header.jpg);
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.header-h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 36px;
+  margin-top: 16%;
+  width: 780px;
+  text-align: center;
+  font-family: "roboto slab", serif;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+  position: absolute;
+  margin-top: 35%;
+}
+
+.profile-h2 {
+  font-family: "source sans pro", sans-serif;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.profile-em {
+  font-family: "source sans pro", sans-serif;
+  margin-left: 43.5%;
+  font-style: italic;
+}
+
+hr {
+  margin-top: 10px;
+  height: 2px;
+  margin-left: 42.5%;
+  width: 200px;
+  color: #e6e6e6;
+}
+
+.article-1 {
+  margin-top: 60px;
+}
+
+article {
+  display: flex;
+  margin-bottom: 120px;
+  justify-content: center;
+}
+article .content {
+  margin-left: 40px;
+  width: 66.67%;
+}
+article p {
+  font-family: "source sans pro", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgb(51, 51, 51);
+  margin: 20px 0;
+}
+article img {
+  width: 100%;
+}
+article a {
+  color: #42b4d6;
+  text-decoration: none;
+  font-family: "source sans pro", sans-serif;
+}
+
+h3 {
+  font-family: "roboto slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.number {
+  font-family: "roboto slab", serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+/*# sourceMappingURL=style.css.map */
